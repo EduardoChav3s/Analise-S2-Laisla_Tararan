@@ -11,7 +11,7 @@ livros = []
 def cadastrar_livro():
     titulo = input("Digite o título do livro: ")
     autor = input("Digite o autor do livro: ")
-    ano = input("Digite o ano de publicação do livro: ")
+    
 
     # Adiciona o livro na lista
     livros.append({"titulo": titulo, "autor": autor, "ano": ano})
@@ -20,7 +20,7 @@ def cadastrar_livro():
 # Função para listar os livros cadastrados
 def listar_livros():
     if len(livros) == 0:
-        print("Não há livros cadastrados.\n")
+        
     else:
         print("Livros cadastrados:")
         for livro in livros:
@@ -31,8 +31,8 @@ def listar_livros():
 while True:
     print("Sistema de Gestão de Livros")
     print("1 - Cadastrar Livro")
-    print("2 - Listar Livros")
-    print("3 - Sair")
+    
+    
     
     opcao = input("Escolha uma opção (1, 2 ou 3): ")
     
@@ -43,5 +43,5 @@ while True:
     elif opcao == "3":
         print("Saindo do sistema... Até logo!")
         break
-    else:
+    
         print("Opção inválida. Tente novamente.\n")
