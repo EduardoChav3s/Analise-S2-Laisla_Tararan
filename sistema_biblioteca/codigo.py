@@ -1,3 +1,10 @@
+# Programa de Gestão de Livros
+# Este programa permite ao usuário cadastrar livros, listar todos os livros cadastrados 
+# e sair do sistema. O sistema mantém uma lista de livros, onde cada livro é armazenado
+# com seu título, autor e ano de publicação. O usuário interage com o sistema através de 
+# um menu de opções, podendo escolher entre cadastrar um novo livro, listar os livros já 
+# cadastrados ou sair do programa.
+
 livros = []
 
 # Função para cadastrar um novo livro
